@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main" id="main">
+        <nav class="toogle">
+            <span class="nav-text">
+                <h1>Weather Forecast</h1>
+                <form>
+                    <input id="search" type="search" placeholder="Search City">
+                </form>
+            </span>
+            <span class="i-nav">
+                <button class="sun">
+                    <i id="sun" class="bi bi-brightness-high" onclick="changCol()"></i>
+                </button>
+                <button class="moon">
+                    <i id="moon" class="bi bi-moon" onclick="changeCol()"></i>
+                </button>
+            </span>
+        </nav>
+        <div class="container">
+            <div class="weather-main">
+                <span class=" weather-data">
+                    <span class="location">Location<h2></h2></span>
+                    <span class="tempeature">Temperature<h3></h3></span>
+                    <span class="air">Air<h4></h4></span>
+                    <span class="cloud">Cloud <img></span>
+                </span>
+                <spam class="weather-p">
+                    <span class="">
+                        <p></p>
+                    </span>
+                    <span class="c">
+                        <h5></h5>
+                    </span>
+                    <span class="f">
+                        <h6></h6>
+                    </span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
