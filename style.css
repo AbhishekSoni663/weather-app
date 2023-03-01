@@ -295,7 +295,7 @@ button:hover {
     }
     .main{
         width:100%;
-        height:auto;
+        /* height:auto; */
     }
     .container{
         width:100%;
